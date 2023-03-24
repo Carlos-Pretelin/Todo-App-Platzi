@@ -1,0 +1,19 @@
+
+
+.search-input{
+    background: #f9fbfc;
+    color: #1e1e1f;
+    display: block;
+    margin: 0 auto;
+    padding: 3%;
+    width: 80%;
+    max-width: 450px;
+    height: 60px;
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 3px 20px 3px rgb(0 183 255 / 20%);
+}
+
+

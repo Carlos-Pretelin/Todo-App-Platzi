@@ -1,0 +1,61 @@
+
+
+
+.Todo-form{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f0f8ff;
+    width: 340px;
+    height: 250px;
+    border-radius: 5px;
+    position: relative;
+    -webkit-animation: open .5s ease backwards;
+    animation: open .5s ease backwards;
+}
+
+.label{
+    color: #000;
+    font-weight: 700;
+    margin: 20px 0;
+    font-size: 25px;
+}
+
+.textarea{
+    max-width: 280px;
+    min-width: 280px;
+    min-height: 100px;
+    padding: 5px;
+    text-align: center;
+    border: 1px solid #60a3da;
+    outline: none;
+    border-radius: 5px;
+    width: 281px;
+    height: 100px;
+}
+.TodoButton-Cancel{
+    width: 90px;
+    height: 30px;
+    border: none;
+    margin: 10px;
+    border-radius: 5px;
+    background: none;
+    cursor: pointer;
+    transition: box-shadow .5s ease;
+    background-color: #c78484;
+}
+
+.TodoButton-add{
+    width: 90px;
+    height: 30px;
+    border: none;
+    margin: 10px;
+    border-radius: 5px;
+    background: none;
+    cursor: pointer;
+    transition: box-shadow .5s ease;
+    background-color: #60a3da;
+}
+
+

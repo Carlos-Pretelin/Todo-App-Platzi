@@ -1,0 +1,22 @@
+
+
+
+
+
+.addTodo-button{
+    position: fixed;
+    background-color: #61dafa;
+    box-shadow: 0 5px 25px rgb(97 218 250 / 50%);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 35px;
+    bottom: 20px;
+    right: 20px;
+    border: none;
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+    transition: .3s ease;
+    z-index: 1;
+    cursor: pointer;
+}

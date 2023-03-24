@@ -1,0 +1,54 @@
+
+
+.list-item{
+    border: red solid;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 100%;
+    min-width: 317px;
+    max-width: 399px;
+    height: 100%;
+    border-radius: 15px;
+    overflow-y: auto;
+    position: relative;
+    bottom: 0;
+    padding: 0 20px;
+    
+    display: flex;
+    min-height: 75px;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+
+.checkmark-icon{
+    font-size: 28px;
+    color: black;
+}
+
+
+ .checkmark-icon_completed{
+
+    color:green ;
+ }
+
+
+
+.todo-item-P{
+    text-decoration: none;
+}
+
+ .todo-item-P_completed{
+    text-decoration: line-through;
+ }
+
+ .delete-icon{
+    font-size: 24px;
+    color: red;
+    cursor: pointer;
+    
+ }
+
